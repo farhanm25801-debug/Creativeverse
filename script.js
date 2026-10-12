@@ -5,14 +5,11 @@
    ============================================================ */
 const CONFIG = {
   // Your email. Replace before publishing.
-  email: "your.email@example.com", // <-- REPLACE
+  email: "farhanm3829c@gmail.com", // <-- REPLACE
 
   // Social links. Replace each URL (keep the quotes). Delete a line to remove it.
   socials: [
-    { label: "Instagram", url: "https://instagram.com/YOUR_HANDLE" }, // <-- REPLACE
-    { label: "YouTube", url: "https://youtube.com/@YOUR_HANDLE" },    // <-- REPLACE
-    { label: "Behance", url: "https://behance.net/YOUR_HANDLE" },     // <-- REPLACE
-    { label: "LinkedIn", url: "https://linkedin.com/in/YOUR_HANDLE" } // <-- REPLACE
+    { label: "Instagram", url: "https://instagram.com/edit4obito" }, // <-- REPLACE
   ],
 
   // NOVA promo video. Leave "" to show the animated placeholder.
