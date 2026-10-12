@@ -70,7 +70,7 @@ const CONFIG = {
   emailCta.addEventListener("click", (e) => {
     if (isPlaceholder(CONFIG.email)) {
       e.preventDefault();
-      toast("Placeholder email. Edit CONFIG.email in script.js");
+      toast("Mail karo: farhanm3829c@gmail.com");
     }
   });
 
