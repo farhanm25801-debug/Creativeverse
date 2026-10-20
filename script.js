@@ -174,7 +174,22 @@ const CONFIG = {
     const note = $("#videoNote");
 
     if (!CONFIG.novaVideo) {
-      playBtn.addEventListener("click", () => toast("Add your video path in CONFIG.novaVideo (script.js)"));
+      playBtn.addEventListener("click", () => {
+  video.src = CONFIG.novaVideo;
+  video.hidden = false;
+  video.style.display = "block";
+  video.style.position = "relative";
+  video.style.zIndex = "10";
+  video.style.width = "100%";
+  video.controls = true;
+  video.muted = false;
+  reel.hidden = true;
+  reel.style.display = "none";
+  playBtn.hidden = true;
+  playBtn.style.display = "none";
+  box.classList.add("playing");
+  video.play().catch(() => {});
+});
       return;
     }
     note.textContent = "Tap play";
