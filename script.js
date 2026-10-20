@@ -14,7 +14,7 @@ const CONFIG = {
 
   // NOVA promo video. Leave "" to show the animated placeholder.
   // Example: "assets/video/nova-promo.mp4"
-  novaVideo: "",
+  novaVideo:"nova.mp4",
   novaPoster: "" // Optional, e.g. "assets/images/nova-poster.jpg"
 };
 
